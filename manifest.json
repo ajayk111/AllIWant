@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "All I Want",
+  "version": "1.0",
+
+  "description": "Redirects all Youtube links to All I Want For Christmas Is You by Mariah Carey.",
+
+  "icons": {
+    "48": "icons/alliwant-48.png",
+    "96": "icons/alliwant-96.png"
+  },
+  
+  "browser_action": {
+    "default_icon": "icons/alliwant-38.png",
+    "default_title": "All I Want"
+  },
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["redirect.js"]
+    }
+  ]
+}
