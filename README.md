@@ -5,7 +5,7 @@
 
 # Installation
  1. Download the source and put it somewhere you can find
- 2. Open Firefox and go to about:debugging
+ 2. Open Firefox and go to `about:debugging`
  3. Click "This Firefox" on the left sidebar
  4. Click "Load Temporary Add-on" (and trust me you'll want it to be temporary)
  5. Go to the source and load the `manifest.json`
