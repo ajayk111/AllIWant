@@ -14,10 +14,12 @@
 
 # Use
  Just go to any Youtube video and the extension should activate.
+ 
  Clicking Mariah Carey in the toolbar toggles the extension.
 
 ---
 
 # Legal disclaimer
  This software is provided as-is. I have no idea how this will affect your particular computer.
+ 
  I don't own the rights to the icon. (It's an edited still from the music videos.)
