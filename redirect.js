@@ -1,5 +1,5 @@
 function goToAlliwant() {
-  let alliwant_url = "https://www.youtube.com/watch?v=yXQViqx6GMY";
+  let alliwant_url = "https://www.youtube.com/watch?v=9AwWmgcxcX4";
   if (!window.location.href.startsWith(alliwant_url)) {
     window.location.replace(alliwant_url);
   }
